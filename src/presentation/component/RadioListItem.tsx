@@ -10,14 +10,6 @@ export default function RadioListItem({
 }) {
     return (
         <div className={`p-4 flex justify-between ${className || ''}`}>
-            {/* <Image
-                    width="15"
-                    height="15"
-                    src={`https://${radio.logo}`}
-                    alt={radio.name}
-                    className="max-h-[4rem]"
-                /> */}
-
             <div>
                 <h3>
                     <strong>{radio.name}</strong>
